@@ -4,12 +4,15 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Home</title>
+    <title>Eliminar</title>
 </head>
 <body>
-    <h1>Bienvenido
+    <h1>Eliminar Uno
     </h1>
     <br />
-    <a href="/Video/Index">Index Video</a>
+    <lbl>ID Video</lbl>
+    <input type="text" name="idVideo"/>
+    <br />
+    <input type="submit"  value="Elimnar Video" />
 </body>
 </html>

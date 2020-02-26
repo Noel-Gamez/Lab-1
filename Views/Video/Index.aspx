@@ -4,12 +4,18 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Home</title>
+    <title>Index</title>
 </head>
 <body>
-    <h1>Bienvenido
+    <h1>Opciones
     </h1>
+    <br /> 
+    <a href="/Video/Mostrar">Mostrar</a>
     <br />
-    <a href="/Video/Index">Index Video</a>
+    <a href="/Video/Agregar">Agregar</a>
+    <br />
+    <a href="/Video/Eliminar">Eliminar</a>
+    <br />
+    <a href="/Video/Modificar">Modificar</a>
 </body>
 </html>
