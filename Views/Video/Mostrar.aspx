@@ -4,11 +4,21 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Mostrar</title>
+    <title>Mostrar Todo</title>
 </head>
 <body>
-    <div>
-    
-    </div>
+<h1>Mi lista:</h1>
+    Hay <%: ((System.Data.DataTable)ViewData["Video"]).Rows.Count %> Videos
+    <br />
+    <%
+        //sirve para buscar en cada renglon en la base de datos
+        foreach (System.Data.DataRow ren in ((System.Data.DataTable)ViewData["Video"]).Rows)
+        {%>
+            
+            <p> <%: ren["titulo"].ToString() %>  </p>
+             <iframe width="560" height="315" src="<%: ren["url"].ToString() %>"frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+    <%  }
+    %>
 </body>
 </html>

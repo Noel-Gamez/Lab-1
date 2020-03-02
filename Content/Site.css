@@ -26,3 +26,9 @@
 {
     display: none;
 }
+
+fieldset label
+{
+    display: block;
+    margin-bottom : 3px;
+}

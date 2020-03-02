@@ -11,5 +11,7 @@
     </h1>
     <br />
     <a href="/Video/Index">Index Video</a>
+    <br />
+    <iframe src="https://giphy.com/embed/uBuzWfwVcadRC" width="500" height="350" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/animation-movie-minions-uBuzWfwVcadRC"></a></p>
 </body>
 </html>

@@ -78,8 +78,11 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Video\Agregar.aspx" />
     <Content Include="Views\Video\Eliminar.aspx" />
     <Content Include="Views\Video\Index.aspx" />
+    <Content Include="Views\Video\Mensaje.aspx" />
+    <Content Include="Views\Video\Modificar.aspx" />
     <Content Include="Views\Video\Mostrar.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -121,7 +124,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>4746</DevelopmentServerPort>
+          <DevelopmentServerPort>63408</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
